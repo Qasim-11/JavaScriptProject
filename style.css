@@ -1,11 +1,7 @@
-*{
-    font-family:cursive ;
-    box-sizing: border-box;
 
-}
 body {
     background-color: #F6F6F6;
-  
+    font-family: 'Roboto Mono', monospace;
 }
 
 
