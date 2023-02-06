@@ -1,0 +1,101 @@
+*{
+    font-family:cursive ;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: #F6F6F6;
+  
+}
+
+
+  
+.parent{ 
+    margin: 200px auto;
+    text-align : center;
+    background-color: rgba(47, 89, 126, 0.432);
+    width: fit-content;
+    padding: 40px 100px;
+    border-radius: 20px;
+    box-shadow:  -14px 15px 8px 5px #777;
+    text-shadow:   -2px 2px 0px  #777;
+    
+
+}
+.btns-dad{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+    align-content: space-between;
+
+    
+}
+
+button{
+    background-color: #ffffff;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 20px;
+    box-shadow:  -4px 4px 3px 2px #777;
+    font-size: large;
+    
+}
+button:hover{
+    transition-duration: 0.4s;
+    background-color: rgb(27, 130, 214);
+    cursor: pointer;
+}
+.reset:hover{
+    
+    background-color: rgb(196, 75, 75);
+}
+.save:hover{
+    background-color: rgb(5, 201, 80);
+
+}
+.saved:hover{
+    background-color: rgb(252, 235, 3);
+
+}
+
+
+.display2{
+
+    text-align: center;
+    margin: auto;
+    background-color: rgba(47, 89, 126, 0.432);max-width: 400px;
+
+    border-radius: 20px;
+    box-shadow:  -5px 5px 8px 5px #777;
+    text-shadow:   -2px 2px 0px  #777;   
+    padding: 34px;
+    font-size: large;
+    position: relative;
+    bottom: 50px;
+}
+
+.avr{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: rgba(47, 89, 126, 0.432);
+    border-radius: 20px;
+    box-shadow:  -5px 5px 8px 5px #777;
+    text-shadow:   -1px 1px 0px  #777;   
+    font-size: large;
+    padding: 40px;
+text-align: center;
+
+}
+@media (max-width : 800px) {
+    .avr{
+position: relative;
+right: unset;
+top: 100px;
+margin: 0px auto;
+width: fit-content;
+}
+
+}
