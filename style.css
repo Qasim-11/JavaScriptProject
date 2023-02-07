@@ -6,18 +6,15 @@ body {
 
 
   
-.parent{ 
-    margin: 200px auto;
-    text-align : center;
+.parent {
+    margin: 100px auto;
+    text-align: center;
     background-color: rgba(47, 89, 126, 0.432);
-    width: 100%;
-    padding: 40px 100px;
+    width: 30%;
+    padding: 10%;
     border-radius: 20px;
-    box-shadow:  -14px 15px 8px 5px #777;
-    text-shadow:   -2px 2px 0px  #777;
-    
-
-}
+    box-shadow: -14px 15px 8px 5px #777;
+    text-shadow: -2px 2px 0px #777;}
 .btns-dad{
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -25,18 +22,18 @@ body {
     grid-column-gap: 20px;
     grid-row-gap: 5px;
     align-content: space-between;
-
+    justify-content: center;
     
 }
 
 button{
-    background-color: #ffffff;
     text-align: center;
     transition: 0.3s;
     border-radius: 20px;
-    box-shadow:  -4px 4px 3px 2px #777;
+    box-shadow: -4px 4px 3px 2px #777;
     font-size: large;
-    padding: 20px;
+    padding: 18px;
+    border: none;
 
     
 }
@@ -75,9 +72,8 @@ button:hover{
 }
 
 .avr{
-    position: absolute;
-    top: 50px;
-    right: 50px;
+    margin: 0 auto;
+    max-width: 50%;
     background-color: rgba(47, 89, 126, 0.432);
     border-radius: 20px;
     box-shadow:  -5px 5px 8px 5px #777;
@@ -87,13 +83,10 @@ button:hover{
 text-align: center;
 
 }
-@media (max-width : 800px) {
-    .avr{
-position: relative;
-right: unset;
-top: 100px;
-margin: 0px auto;
-width: fit-content;
-}
 
+@media (max-width:800) {
+.parent{
+    width: 80%;
+    padding: 10%;
+}
 }
