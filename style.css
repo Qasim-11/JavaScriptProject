@@ -10,7 +10,7 @@ body {
     margin: 200px auto;
     text-align : center;
     background-color: rgba(47, 89, 126, 0.432);
-    width: fit-content;
+    width: 100%;
     padding: 40px 100px;
     border-radius: 20px;
     box-shadow:  -14px 15px 8px 5px #777;
@@ -36,6 +36,8 @@ button{
     border-radius: 20px;
     box-shadow:  -4px 4px 3px 2px #777;
     font-size: large;
+    padding: 20px;
+
     
 }
 button:hover{
